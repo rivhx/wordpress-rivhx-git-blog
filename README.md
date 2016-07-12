@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 
      ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.
     '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
@@ -30,6 +31,10 @@ The Cloud9 IDE team
 
 Visit http://docs.c9.io for support, or to learn more about using Cloud9 IDE. 
 To watch some training videos, visit http://www.youtube.com/user/c9ide
+=======
+# wordpress-rivhx-git-blog
+Backup del site de wordpress tutorial de git
+>>>>>>> d25b874e8a1c7c82b2342641e22643cd61173ea8
 =======
 # wordpress-rivhx-git-blog
 Backup del site de wordpress tutorial de git
