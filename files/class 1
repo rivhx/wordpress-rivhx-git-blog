@@ -1,0 +1,27 @@
+Comandos de git
+
+Comandos de configracion 
+
+Agregar nombre de usario 
+
+    git config --global user.name  "nombre de usuario"
+
+Ver nombre de usario    
+
+    git config --global user.name
+    
+Agregar correo de usario
+
+    git config --global user.email "email"
+    
+Ver email de usario
+    
+    git config --global user.email 
+    
+Activar colores
+
+    git config –global color.ui true
+
+Ver configuraciones globales
+
+    git config –global –list 

@@ -1,0 +1,74 @@
+Primeros pasos GIT
+
+Para iniciar git en una carpeta 
+
+    git init
+
+Ver el estado de los archivos del proyecto (cuales estan en commit, modificaciones)
+
+    git status
+
+Agregar archivo especifico
+
+    git add file
+    
+Agregar todos los archivos
+    
+    git add -A
+    
+Guardar los cambios con un mensaje para identificarlos
+
+    git commit -m "Mensaje"
+    
+    Nota: poner mensajes especificos y que sean identificables
+    
+Muestra el historial de nuestros commits son su debiada informacion
+
+    git log
+    
+    Nota: Cada commit es identificado por un codigo sha (como un identificador)
+    
+Para cambiar a un commit especifico o una rama especifica
+    
+    Para un commit espcifico
+    
+        git checkout CODIGO-SHA-DEL-COMMIT
+    
+    Para una rama especifica
+    
+        git checkout master
+    
+    Nota: si se cambia a master se devuelve donde estabamos antes o es equivalente a viajar al ultimo commit
+
+Como checkout pero elimina commits
+
+    git reset --tipo CODIGO-SHA-DEL-COMMIT o Branch
+    
+    Hay tres tipos de git reset
+            
+    git reset --soft
+    
+    Nota: No modifica nuestra working area = el codigo 
+    
+    git reset --mixed
+    
+    Nota: No modifica nuestra staging area ni el working area
+    
+    git reset --hard
+    
+    Nota: Borra todo Working area = codigo y Staging area = commits
+    
+Para ver opciones de ayuda de git como funcionan los comandos
+
+    git help <Comando (opcional)>
+    
+    Nota: es una pequeña documentacion
+    
+            
+            
+
+    
+    
+    
+    
+

@@ -1,0 +1,41 @@
+Conociendo Ramas y Fusiones
+
+Head: puntero donde nos encontramos
+Ramas: Branch en ingles, muestra las lineas de tiempo, ya sea lineas de trabajo externas o lineas experimentacion o la linea master
+
+Para ver las diferentes lineas
+
+    git branch 
+    
+Para crear una rama nueva
+
+    git branch NOMBRE-DE-LA-RAMA
+    
+Recordatorio para moverse entre brachs o ramas 
+
+    git checkout NOMBRE-DE-LA-RAMA
+    
+Al moverse a una rama todos los cambios se generan en ella 
+
+Para borrar ramas que ya no estemos usando
+
+    git branch -D NOMBRE-DE-LA-RAMA
+    
+    Nota: el parametro -D para eleminar debe estar en mayusucla
+    
+Fusiones: commit en otra rama para unir esos cambios 
+
+    git merge NOMBRE-DE-LA-RAMA
+
+Pasos:
+    1- Situarnos en la rama que va absorver: con git checkout master
+    2- Fusionar los cambios de la rama con: git merge NOMBRE-DE-LA-RAMA
+    
+Tipos de fusiones
+    -Fast Foward: no pregunta simplemente hace una fusion de archivos 
+    -Manual merge: verifica antes de hacer la fusion; el merger debe confirmar lineas o archivos
+    
+    
+Para movernos a una rama al mismo tiempo que la creamos
+
+    git checkout -b NOMBRE-DE-LA-RAMA
